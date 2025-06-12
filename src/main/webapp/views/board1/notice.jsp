@@ -23,7 +23,8 @@
             margin: 15px;
             padding: 8px 16px;
         }
-    </style>
+    </style> 
+    
 </head>
 <body>
 
@@ -38,7 +39,9 @@
         </tr>
         <c:forEach var="notice" items="${noticeList}">
             <tr>
-                <td>${notice.id}</td>
+                <td>
+
+                </td>
                 <td><a href="/noticeDetail?id=${notice.id}">${notice.title}</a></td>
                 <td>${notice.writer}</td>
                 <td>${notice.date}</td>
